@@ -216,7 +216,7 @@ header {
     margin-bottom: 24px;
 }
 
-.same-day-des {
+.same-day-description {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -245,7 +245,7 @@ header {
     margin-bottom: 24px;
 }
 
-.same-day-info-desc {
+.same-day-desc {
     color: #FFF;
     text-align: center;
     font-size: 40px;
