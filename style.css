@@ -52,7 +52,7 @@ body {
 .btn-secondary:hover {
     cursor: pointer;
     background: #272727;
-    color: #E55473;
+    color: #FFF;
     border: 1px solid #E55473;
 }
 
@@ -216,7 +216,7 @@ header {
     margin-bottom: 24px;
 }
 
-.same-day-description {
+.same-day-des {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
     font-size: 18px;
@@ -245,12 +245,16 @@ header {
     margin-bottom: 24px;
 }
 
-.same-day-desc {
+.same-day-info-desc {
     color: #FFF;
     text-align: center;
     font-size: 40px;
     font-weight: 800;
     margin-bottom: 32px;
+}
+
+.same-day-img > img {
+    border-radius: 0px 8px 8px 0px;
 }
 
 /* Same day delivery styling end */
