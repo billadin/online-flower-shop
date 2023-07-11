@@ -7,6 +7,10 @@
     color: #E55473;;
 }
 
+.color-secondary {
+    color: #FFF;
+}
+
 .btn-primary {
     color: #FFF;
     background: #E55473;
@@ -316,5 +320,45 @@ header {
     font-family: Lato;
     font-size: 16px;
     font-weight: 400;
+}
+/* Newsletter styling end */
+
+footer {
+    background:#111010;
+    padding: 128px 648px 128px 648px;
+}
+
+.footer-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.footer-heading {
+    color: #E55473;
+    font-family: Lato;
+    font-size: 48px;
+    font-weight: 800;
+    margin-bottom: 24px;
+}
+
+.footer-desc {
+    color: rgba(255, 255, 255, 0.90);
+    text-align: center;
+    font-family: Lato;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-bottom: 32px;
+}
+
+.footer-rights-text {
+    color: rgba(255, 255, 255, 0.40);
+    text-align: center;
+    font-family: Lato;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
 }
 
