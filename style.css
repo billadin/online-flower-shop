@@ -3,8 +3,13 @@
     padding: 0;
 }
 
+body {
+    font-family: 'Lato', sans-serif;
+}
+
 .color-primary {
-    color: #E55473;;
+    color: #E55473;
+    ;
 }
 
 .color-secondary {
@@ -14,9 +19,8 @@
 .btn-primary {
     color: #FFF;
     background: #E55473;
-    border: 0;
+    border: 1px solid #E55473;
     border-radius: 8px;
-    font-family: Lato;
     font-size: 20px;
     font-style: normal;
     font-weight: 700;
@@ -34,14 +38,14 @@
 
 /* Hero section styling start */
 header {
-    background:rgba(229, 84, 115, 0.10);
+    background: rgba(229, 84, 115, 0.10);
 }
 
 .hero-container {
     margin-left: 240px;
     margin-right: 240px;
     display: flex;
-    gap:97px;
+    gap: 97px;
 }
 
 .hero-info {
@@ -55,7 +59,6 @@ header {
 #hero-title {
     margin-top: 197px;
     color: #272727;
-    font-family: Lato;
     font-size: 80px;
     font-weight: 900;
     font-style: normal;
@@ -64,7 +67,6 @@ header {
 .hero-desc {
     width: 634px;
     color: rgba(39, 39, 39, 0.60);
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -73,6 +75,7 @@ header {
 .hero-img {
     margin-top: 50px;
 }
+
 /* Hero section styling end */
 
 
@@ -90,7 +93,6 @@ header {
 .featured-flowers-title {
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
     font-style: normal;
     font-weight: 900;
@@ -102,7 +104,6 @@ header {
     width: 594px;
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -114,7 +115,7 @@ header {
     gap: 24px;
 }
 
-.featured-flower {   
+.featured-flower {
     display: flex;
     flex-direction: column;
     gap: 32px;
@@ -123,40 +124,51 @@ header {
 .flower {
     width: 464px;
     height: 538px;
+    border-radius: 300px 300px 0px 0px;
 }
-
 
 .flower-1 {
-    background: url("images/pngwing6.png") rgba(167, 33, 98, 0.15);
-    border-radius: 300px 300px 0px 0px;
-    background-repeat: no-repeat;
-    background-position: bottom;
+    background: rgba(167, 33, 98, 0.15);
 }
 
+.flower-1-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 110px;
+    margin: auto;
+}
 
 .flower-2 {
-    background: url("images/pngwing5.png") rgba(5, 151, 160, 0.15);
-    border-radius: 300px 300px 0px 0px;
-    background-repeat: no-repeat;
-    background-position: center;
+    background: rgba(5, 151, 160, 0.15);
+}
+
+.flower-2-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 117px;
+    margin: auto;
 }
 
 .flower-3 {
-    background: url("images/pngwing7.png") rgba(71, 125, 17, 0.15);
-    border-radius: 300px 300px 0px 0px;
-    background-repeat: no-repeat;
-    background-position: bottom; 
+    background: rgba(71, 125, 17, 0.15);
+}
+
+.flower-3-img {
+    display: flex;
+    justify-content: center;
+    padding-top: 67px;
+    margin: auto;
 }
 
 .our-featured-flowers h3 {
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 24px;
     font-weight: 700;
     line-height: 35px;
     text-decoration-line: underline;
 }
+
 /* Our featured flowers styling end */
 
 /* Service banner styling start */
@@ -170,8 +182,7 @@ header {
     padding: 87px 175px;
     display: flex;
     justify-content: center;
-    gap:100px
-   
+    gap: 100px
 }
 
 .service-item {
@@ -184,7 +195,6 @@ header {
 .service-desc {
     color: rgba(39, 39, 39, 0.80);
     text-align: center;
-    font-family: 'Lato', sans-serif;
     font-size: 23px;
     font-weight: 600;
     line-height: 35px;
@@ -203,20 +213,19 @@ header {
     display: flex;
     gap: 186px;
     justify-content: center;
-    align-items: center; 
+    align-items: center;
 }
 
 .promo-info {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
 }
 
 .promo-title {
     padding-top: 130px;
     color: #272727;
-    font-family: 'Lato', sans-serif;
     font-size: 40px;
     font-weight: 900;
     margin-bottom: 24px;
@@ -225,28 +234,28 @@ header {
 .promo-desc {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
     margin-bottom: 32px;
 }
+
 /* Promo banner stylig end */
 
 /* Instagram styling start */
 .instagram {
-   margin: 0px 240px 128px 240px; 
+    margin: 0px 240px 128px 240px;
 }
 
 .instagram-container {
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .instagram-title {
     color: #272727;
     text-align: center;
-    font-family: Lato;
     font-size: 40px;
     font-weight: 900;
     margin-bottom: 24px;
@@ -255,7 +264,6 @@ header {
 .instagram-desc {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: 'Lato', sans-serif;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -267,6 +275,7 @@ header {
     justify-content: center;
     gap: 24px;
 }
+
 /* Instagram styling end */
 
 /* Newletter styling start */
@@ -289,7 +298,6 @@ header {
     color: #272727;
     text-align: center;
     font-family: Lato;
-    font-size: 40px;
     font-weight: 800;
     margin-bottom: 16px;
 }
@@ -297,7 +305,6 @@ header {
 .newsletter-desc {
     color: rgba(39, 39, 39, 0.60);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -311,20 +318,20 @@ header {
 
 #newsletter-email {
     width: 700px;
-    padding:22px;
+    padding: 22px;
     border: 0;
     border-radius: 8px;
     background: #FFF;
     color: rgba(39, 39, 39, 0.60);
     text-align: left;
-    font-family: Lato;
     font-size: 16px;
     font-weight: 400;
 }
+
 /* Newsletter styling end */
 
 footer {
-    background:#111010;
+    background: #111010;
     padding: 128px 648px 128px 648px;
 }
 
@@ -336,7 +343,6 @@ footer {
 
 .footer-heading {
     color: #E55473;
-    font-family: Lato;
     font-size: 48px;
     font-weight: 800;
     margin-bottom: 24px;
@@ -345,7 +351,6 @@ footer {
 .footer-desc {
     color: rgba(255, 255, 255, 0.90);
     text-align: center;
-    font-family: Lato;
     font-size: 18px;
     font-weight: 400;
     line-height: 30px;
@@ -355,10 +360,8 @@ footer {
 .footer-rights-text {
     color: rgba(255, 255, 255, 0.40);
     text-align: center;
-    font-family: Lato;
     font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: normal;
 }
-
